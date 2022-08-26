@@ -7,25 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		001389C428B84C1B002C47BF /* TakenNote+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001389C228B84C1B002C47BF /* TakenNote+CoreDataClass.swift */; };
+		001389C528B84C1B002C47BF /* TakenNote+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001389C328B84C1B002C47BF /* TakenNote+CoreDataProperties.swift */; };
 		007BFF5328B8318400FB2A81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007BFF5228B8318400FB2A81 /* AppDelegate.swift */; };
 		007BFF5528B8318400FB2A81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007BFF5428B8318400FB2A81 /* SceneDelegate.swift */; };
-		007BFF5728B8318400FB2A81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007BFF5628B8318400FB2A81 /* ViewController.swift */; };
 		007BFF5A28B8318400FB2A81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007BFF5828B8318400FB2A81 /* Main.storyboard */; };
 		007BFF5D28B8318500FB2A81 /* _6_th_Davit_Shavtvalishvili.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 007BFF5B28B8318500FB2A81 /* _6_th_Davit_Shavtvalishvili.xcdatamodeld */; };
 		007BFF5F28B8318600FB2A81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 007BFF5E28B8318600FB2A81 /* Assets.xcassets */; };
 		007BFF6228B8318600FB2A81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007BFF6028B8318600FB2A81 /* LaunchScreen.storyboard */; };
+		007BFF7128B83C5B00FB2A81 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007BFF7028B83C5B00FB2A81 /* TableViewCell.swift */; };
+		007BFF7428B8437D00FB2A81 /* EditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007BFF7328B8437D00FB2A81 /* EditVC.swift */; };
+		007BFF7628B843A700FB2A81 /* AllNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007BFF7528B843A700FB2A81 /* AllNotes.swift */; };
+		007BFF7828B843BE00FB2A81 /* FavNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007BFF7728B843BE00FB2A81 /* FavNotes.swift */; };
+		007BFF8128B846CB00FB2A81 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 007BFF7E28B846CB00FB2A81 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		001389C228B84C1B002C47BF /* TakenNote+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "TakenNote+CoreDataClass.swift"; path = "26.th.Davit.Shavtvalishvili/TakenNote+CoreDataClass.swift"; sourceTree = "<group>"; };
+		001389C328B84C1B002C47BF /* TakenNote+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "TakenNote+CoreDataProperties.swift"; path = "26.th.Davit.Shavtvalishvili/TakenNote+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		007BFF4F28B8318400FB2A81 /* 26.th.Davit.Shavtvalishvili.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 26.th.Davit.Shavtvalishvili.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		007BFF5228B8318400FB2A81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		007BFF5428B8318400FB2A81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		007BFF5628B8318400FB2A81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		007BFF5928B8318400FB2A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		007BFF5C28B8318500FB2A81 /* _6_th_Davit_Shavtvalishvili.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = _6_th_Davit_Shavtvalishvili.xcdatamodel; sourceTree = "<group>"; };
 		007BFF5E28B8318600FB2A81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		007BFF6128B8318600FB2A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		007BFF6328B8318600FB2A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		007BFF7028B83C5B00FB2A81 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		007BFF7328B8437D00FB2A81 /* EditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditVC.swift; sourceTree = "<group>"; };
+		007BFF7528B843A700FB2A81 /* AllNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllNotes.swift; sourceTree = "<group>"; };
+		007BFF7728B843BE00FB2A81 /* FavNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavNotes.swift; sourceTree = "<group>"; };
+		007BFF7E28B846CB00FB2A81 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TableViewCell.xib; path = ../TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +54,8 @@
 		007BFF4628B8318400FB2A81 = {
 			isa = PBXGroup;
 			children = (
+				001389C228B84C1B002C47BF /* TakenNote+CoreDataClass.swift */,
+				001389C328B84C1B002C47BF /* TakenNote+CoreDataProperties.swift */,
 				007BFF5128B8318400FB2A81 /* 26.th.Davit.Shavtvalishvili */,
 				007BFF5028B8318400FB2A81 /* Products */,
 			);
@@ -58,16 +72,36 @@
 		007BFF5128B8318400FB2A81 /* 26.th.Davit.Shavtvalishvili */ = {
 			isa = PBXGroup;
 			children = (
+				007BFF5B28B8318500FB2A81 /* _6_th_Davit_Shavtvalishvili.xcdatamodeld */,
 				007BFF5228B8318400FB2A81 /* AppDelegate.swift */,
 				007BFF5428B8318400FB2A81 /* SceneDelegate.swift */,
-				007BFF5628B8318400FB2A81 /* ViewController.swift */,
-				007BFF5828B8318400FB2A81 /* Main.storyboard */,
 				007BFF5E28B8318600FB2A81 /* Assets.xcassets */,
 				007BFF6028B8318600FB2A81 /* LaunchScreen.storyboard */,
 				007BFF6328B8318600FB2A81 /* Info.plist */,
-				007BFF5B28B8318500FB2A81 /* _6_th_Davit_Shavtvalishvili.xcdatamodeld */,
+				007BFF5828B8318400FB2A81 /* Main.storyboard */,
+				007BFF7228B8433E00FB2A81 /* VCs */,
+				007BFF6B28B83BF800FB2A81 /* Cells */,
 			);
 			path = 26.th.Davit.Shavtvalishvili;
+			sourceTree = "<group>";
+		};
+		007BFF6B28B83BF800FB2A81 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				007BFF7E28B846CB00FB2A81 /* TableViewCell.xib */,
+				007BFF7028B83C5B00FB2A81 /* TableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		007BFF7228B8433E00FB2A81 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+				007BFF7328B8437D00FB2A81 /* EditVC.swift */,
+				007BFF7528B843A700FB2A81 /* AllNotes.swift */,
+				007BFF7728B843BE00FB2A81 /* FavNotes.swift */,
+			);
+			path = VCs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				007BFF6228B8318600FB2A81 /* LaunchScreen.storyboard in Resources */,
+				007BFF8128B846CB00FB2A81 /* TableViewCell.xib in Resources */,
 				007BFF5F28B8318600FB2A81 /* Assets.xcassets in Resources */,
 				007BFF5A28B8318400FB2A81 /* Main.storyboard in Resources */,
 			);
@@ -141,10 +176,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				007BFF5728B8318400FB2A81 /* ViewController.swift in Sources */,
+				007BFF7128B83C5B00FB2A81 /* TableViewCell.swift in Sources */,
+				007BFF7628B843A700FB2A81 /* AllNotes.swift in Sources */,
 				007BFF5328B8318400FB2A81 /* AppDelegate.swift in Sources */,
 				007BFF5528B8318400FB2A81 /* SceneDelegate.swift in Sources */,
+				007BFF7428B8437D00FB2A81 /* EditVC.swift in Sources */,
+				001389C428B84C1B002C47BF /* TakenNote+CoreDataClass.swift in Sources */,
+				007BFF7828B843BE00FB2A81 /* FavNotes.swift in Sources */,
 				007BFF5D28B8318500FB2A81 /* _6_th_Davit_Shavtvalishvili.xcdatamodeld in Sources */,
+				001389C528B84C1B002C47BF /* TakenNote+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
