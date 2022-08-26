@@ -45,8 +45,7 @@ class AllNotes: UIViewController, saveAndReload {
     }
     
     func getNotesData() {
-        do {
-            self.notesArr = try managedContext.fetch(TakenNote.fetchRequest())
+        do { self.notesArr = try managedContext.fetch(TakenNote.fetchRequest())
         } catch { print(error) }
         self.tableView.reloadData()
     }
@@ -86,7 +85,6 @@ extension AllNotes: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "TableViewCell", for: indexPath) as! TableViewCell
         let i = indexPath[1]
-        cell.index = i
         cell.delegate = self
         cell.note = notesArr[i]
         cell.config()

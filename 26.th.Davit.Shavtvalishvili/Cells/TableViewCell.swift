@@ -12,8 +12,6 @@ class TableViewCell: UITableViewCell {
     @IBOutlet var title: UILabel!
     @IBOutlet var previewText: UILabel!
     @IBOutlet var favor: UIButton!
-    var fav = false
-    var index = -1
     weak var delegate: saveAndReload? = nil
     weak var note: TakenNote? = nil
     
@@ -61,7 +59,6 @@ class TableViewCell: UITableViewCell {
             var color: UIColor = .darkGray
             if n.isFavorite { color = .yellow }
             favor.tintColor = color
-            fav = n.isFavorite
         }
     }
 }
